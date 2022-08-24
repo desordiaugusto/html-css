@@ -1,0 +1,53 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <header>
+      <h1 id="title">Survey Form</h1>
+      <p id="description">Help us to know more about you!</p>
+    </header>
+    <div>
+      <form id="survey-form">
+        <label id="name-label" class="block">Name <input id="name" class="block" type="text" placeholder="Enter your name" required ></label>
+        <label class="block" id="email-label">Email <input class="block" id="email" type="email" placeholder="Enter your email" required></label>
+        <label id="number-label">Age <input class="block" type="number" id="number" min="10" max="120" placeholder="Age"></label>
+        <label>Choose an option that better describes you:
+          <select class="block" id="dropdown" >
+            <option>Select an option</option>
+            <option>e-Sports</option>
+            <option>Alcohol</option>
+            <option>Study</option>
+            <option>Travel</option>
+            <option>Nothing</option>
+          </select>
+        </label>
+        
+        <p id="gender"> Tell us your gender: </p>
+          <label id="female"><input name="gender" type="radio" value=" female" />Female</label>
+          <label id="male"><input name="gender" type="radio" value="male"/>Male</label>
+          <label id="non-binary"><input name="gender" type="radio" value="non-binary"/>Non-Binary</label>
+          
+        
+          <p id="interests">Choose your interests:</p>
+          <label id="games" class="block"><input type="checkbox" value="games" />Games</label>
+          <label id="religion" class="block"><input type="checkbox" value="religion" />Religion</label>
+          <label id="filosophy" class="block"><input type="checkbox" value="filosophy" />Filosophy</label>
+          <label id="political-science" class="block"><input type="checkbox" value="political-science" />Political Science</label>
+          <label id="economy" class="block"><input type="checkbox" value="economy" />Economy</label>
+        
+        
+          <p id="comments">Any comments or suggestions?</p>
+          <label><textarea class="block" name="comments" rows="7" cols="30" placeholder="Enter your comment here."></textarea></label>
+        
+        <input type="submit" value="Submit" id="submit"/>
+      </form>
+    </div>
+  </body>
+</html>
+

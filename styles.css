@@ -1,0 +1,193 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+:root {
+  --color-white: #f3f3f3;
+  --color-darkblue: #1b1b32;
+  --color-darkblue-alpha: rgba(27, 27, 50, 0.75);
+  --color-green: #37af65;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--color-white);
+  margin: 0;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background: var(--color-darkblue);
+  background-image: linear-gradient(
+      115deg,
+      rgba(58, 58, 158, 0.8),
+      rgba(136, 136, 206, 0.7)
+    ),
+    url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+h1, p {
+  text-align: center;
+}
+
+div {
+  background-color: var(--color-darkblue-alpha);
+  padding: 40px 35px;
+  width: 65%;
+  max-width: 750px;
+  min-width: 300px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 5px;
+}
+
+input[type="submit"]{
+  background-color: var(--color-green);
+  text-align: center;
+  width: 100%;
+  min-height: 40px;
+  margin: 10px 0px -5px 0px;
+  padding: 5px 5px 5px 5px;
+  border-radius: 2px;
+  border: 0px;
+  font-family: Poppins;
+  color: #f3f3f3;
+  font-size: 1.05em;
+  margin: 25px 0px -30px 0px;
+}
+
+textarea{
+  border-radius: 5px;
+  border: 0;
+  padding: 10px;
+}
+
+::placeholder {
+  font-family: poppins;
+}
+
+.block{
+  display: block;
+  width: 100%;
+
+}
+
+#title {
+  margin: 30px 0px 0px 0px;
+}
+
+#description {
+  margin: 0px 0px 30px 0px;
+}
+
+#survey-form {
+
+}
+
+#name {
+  margin: 5px 0px 25px 0px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 0;
+}
+
+#name-label {
+
+}
+
+#email {
+  margin: 5px 0px 25px 0px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 0;
+}
+
+#email-label {
+
+}
+
+#number {
+  margin: 5px 0px 25px 0px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 0;
+}
+
+#number-label {
+
+}
+
+#dropdown {
+  font-family: poppins;
+  margin: 5px 0px 25px 0px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 0;
+}
+
+#female {
+  display: block;
+}
+
+#male {
+  display: block;
+}
+
+#non-binary {
+  display: block;  
+}
+
+#games {
+
+}
+
+#religion {
+
+}
+
+#filosophy {
+
+}
+
+#political-science {
+
+}
+
+#economy {
+  margin: 0px 0px 25px 0px;
+}
+
+#comments {
+ margin: 0px 0px 5px 0px;
+ text-align: left;
+
+}
+
+#gender {
+  margin: 0px 0px 5px 0px;
+  text-align: left;
+}
+#interests {
+    margin: 25px 0px 5px 0px;
+    text-align: left;
+}
+
+** end of undefined **
+
